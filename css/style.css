@@ -1,0 +1,51 @@
+body{
+	background-image: url(../imagens/fundo.png);
+	font-family: "Arial";
+	text-align: justify;
+}
+table {
+  /* tira espaço entre as bordas */
+  border-collapse: collapse;
+
+  /* centraliza a tabela e define uma largura */
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 2px solid silver;
+  text-align: center;
+}
+h1 {
+  size: 28px;
+  font-family: "Times New Roman";
+  color: limegreen;   /* cor do texto: marrom */
+  margin-left: 30%;
+}
+h2{
+  size: 24px;
+  font-family: "Times New Roman";
+  color: limegreen;   /* cor do texto: marrom */
+  margin-left: 30%;
+}
+p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+blockquote{
+	font-style: italic;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+q{
+	font-style: italic;
+}
+ul,li{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+img {
+  border: 4px solid limegreen; /* azul, sólida, de 1px */
+}
